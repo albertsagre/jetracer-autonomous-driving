@@ -20,7 +20,7 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
 
 **35-second highlight reel**: autonomous lap, obstacle avoidance, lab tests and the live dashboard.
 
-https://github.com/user-attachments/assets/71701cbd-db4e-4ac5-af14-23fc510413e1
+https://github.com/user-attachments/assets/5d1334c5-eda7-47ab-9be9-25153bbd4a0f
 
 <sub>Can't see the player? [Download the MP4](docs/media/highlights.mp4).</sub>
 
