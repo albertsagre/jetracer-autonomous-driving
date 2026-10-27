@@ -12,6 +12,7 @@ This repository mixes upstream example code with my own work. To be explicit abo
 | `src/`, `tests/`, `scripts/`, `docs/` | **My work** | MIT (this repo) |
 | `docs/thesis/` | My bachelor's thesis (UPC, 2023) | © Albert Sagré Martínez, all rights reserved |
 | `docs/images/` | My own photos and screenshots, taken from the thesis | © Albert Sagré Martínez |
+| `docs/media/` | My own test videos (GIF excerpts) and photo of the car | © Albert Sagré Martínez |
 
 Other credits:
 

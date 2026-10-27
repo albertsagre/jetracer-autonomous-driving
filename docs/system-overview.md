@@ -114,4 +114,6 @@ a live camera view with the predicted target point.
 | Home | Waveshare printed mat (oval) |
 | Lab 5.4, EEBE (UPC) | Taped "dog-bone" circuit on a polished terrazzo floor: two ~4.5 m straights, ~44 cm lane width, polygonal hairpins (150° segments). Reflective floor and direct sunlight make it harder for a camera-only system |
 
-![Lab track dimensions](images/track_dimensions.png)
+![Lab track](images/track_lab.jpg)
+
+![Lab track dimensions (cm)](images/track_dimensions.png)

@@ -11,9 +11,20 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 <p align="center">
-  <img src="docs/images/track_lab.jpg" width="49%" alt="Lab test circuit at EEBE (UPC)">
-  <img src="docs/images/obstacle_avoidance_predictions.jpg" width="49%" alt="Predicted target points with obstacles">
+  <img src="docs/media/autonomous_lap.gif" width="72%" alt="JetRacer completing an autonomous lap of the test track">
+  <img src="docs/media/jetracer_pro.jpg" width="25%" alt="Waveshare JetRacer Pro with Jetson Nano and CSI camera">
+  <br><em>A full autonomous lap, camera only, no human input (real time, Oct 2022), and the car: Waveshare JetRacer Pro with a Jetson Nano.</em>
 </p>
+
+## Demo
+
+| Obstacle avoidance on the development track | Final tests on the university lab circuit |
+|---|---|
+| ![Car steering around a box placed on the track](docs/media/obstacle_avoidance.gif) | ![Car passing blue obstacle panels on the reflective lab floor](docs/media/lab_obstacles.gif) |
+| A box is dropped in the lane; the car steers around it and rejoins the track (Nov 2022). | Taped circuit at UPC-EEBE with blue obstacle panels, polished floor and strong glare: the hardest conditions for a camera-only system (Jan 2023). |
+
+All clips play in real time and are unedited apart from cropping. Selected from the test videos recorded
+during the project.
 
 ## Summary
 
