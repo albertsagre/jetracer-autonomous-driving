@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models and TensorRT engines (large, hardware-specific)
+*.pth
+*.engine
+*.onnx
+
+# Collected datasets (road_following_A/, road_following_B/, ...)
+road_following_*/
+data/
+
+# OS
+.DS_Store
+Thumbs.db

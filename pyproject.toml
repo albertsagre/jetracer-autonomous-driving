@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jetracer-control"
+version = "1.0.0"
+description = "Hardware-independent control logic from a vision-based autonomous RC car (JetRacer / Jetson Nano)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Albert Sagré Martínez" }]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4", "matplotlib>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+extend-exclude = ["notebooks", "tests/legacy_v4.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
