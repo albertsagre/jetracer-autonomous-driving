@@ -28,6 +28,8 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
   <br><em>Live operator dashboard while the car drives (Jan 2023): onboard camera with the predicted target point, the steering chain (network output × gain + bias → steering) and the throttle command.</em>
 </p>
 
+▶ **[Watch the 35-second highlight reel (MP4)](docs/media/highlights.mp4)**: lap, obstacle avoidance, lab tests and live dashboard.
+
 All clips play in real time and are only cropped. They were selected from about 50 test videos
 recorded during the project, and every obstacle pass was checked frame by frame for contact.
 
