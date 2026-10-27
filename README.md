@@ -3,7 +3,7 @@
 **End-to-end camera-only driving with a ResNet-18 regressor, TensorRT inference and a steering-scheduled speed controller.**
 Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya (UPC-EEBE), January 2023.
 
-[![CI](https://github.com/GITHUB_USER/jetracer-autonomous-driving/actions/workflows/ci.yml/badge.svg)](https://github.com/GITHUB_USER/jetracer-autonomous-driving/actions/workflows/ci.yml)
+[![CI](https://github.com/albertsagre/jetracer-autonomous-driving/actions/workflows/ci.yml/badge.svg)](https://github.com/albertsagre/jetracer-autonomous-driving/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.6%20(on--car)%20%7C%203.9%2B%20(tests)-3776AB)
 ![PyTorch](https://img.shields.io/badge/PyTorch-ResNet--18-EE4C2C)
 ![TensorRT](https://img.shields.io/badge/TensorRT-FP16-76B900)
@@ -126,7 +126,7 @@ each one states its provenance in its first cell; see [NOTICE.md](NOTICE.md) for
 On a PC (no hardware needed):
 
 ```bash
-git clone https://github.com/GITHUB_USER/jetracer-autonomous-driving.git
+git clone https://github.com/albertsagre/jetracer-autonomous-driving.git
 cd jetracer-autonomous-driving
 pip install -e ".[dev]"
 pytest -q
