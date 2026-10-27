@@ -1,0 +1,4 @@
+# Show the repo language as Python (notebooks are archived on-car code, documented in docs/)
+notebooks/*.ipynb linguist-documentation
+*.mp4 binary
+*.gif binary
