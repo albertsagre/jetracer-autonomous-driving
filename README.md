@@ -18,6 +18,12 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
 
 ## Demo
 
+**35-second highlight reel**: autonomous lap, obstacle avoidance, lab tests and the live dashboard.
+
+https://github.com/user-attachments/assets/71701cbd-db4e-4ac5-af14-23fc510413e1
+
+<sub>Can't see the player? [Download the MP4](docs/media/highlights.mp4).</sub>
+
 | Obstacle avoidance on the development track | Obstacle avoidance on the university lab circuit |
 |---|---|
 | ![Car swerving around a box placed in its lane](docs/media/obstacle_avoidance.gif) | ![Car passing a double obstacle panel in the lab, followed by the camera](docs/media/lab_obstacle_closeup.gif) |
@@ -27,8 +33,6 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
   <img src="docs/media/live_dashboard.gif" width="85%" alt="Live operator dashboard while the car drives">
   <br><em>Live operator dashboard while the car drives (Jan 2023): onboard camera with the predicted target point, the steering chain (network output × gain + bias → steering) and the throttle command.</em>
 </p>
-
-▶ **[Watch the 35-second highlight reel (MP4)](docs/media/highlights.mp4)**: lap, obstacle avoidance, lab tests and live dashboard.
 
 All clips play in real time and are only cropped. They were selected from about 50 test videos
 recorded during the project, and every obstacle pass was checked frame by frame for contact.
