@@ -18,13 +18,18 @@ Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya
 
 ## Demo
 
-| Obstacle avoidance on the development track | Final tests on the university lab circuit |
+| Obstacle avoidance on the development track | Obstacle avoidance on the university lab circuit |
 |---|---|
-| ![Car steering around a box placed on the track](docs/media/obstacle_avoidance.gif) | ![Car passing blue obstacle panels on the reflective lab floor](docs/media/lab_obstacles.gif) |
-| A box is dropped in the lane; the car steers around it and rejoins the track (Nov 2022). | Taped circuit at UPC-EEBE with blue obstacle panels, polished floor and strong glare: the hardest conditions for a camera-only system (Jan 2023). |
+| ![Car swerving around a box placed in its lane](docs/media/obstacle_avoidance.gif) | ![Car passing a double obstacle panel in the lab, followed by the camera](docs/media/lab_obstacle_closeup.gif) |
+| A box is placed in the lane; the car swerves around it on the outside and returns to its lane without touching it (Nov 2022). | Final version on the UPC-EEBE lab circuit: the car passes behind a double panel, leaving a clear gap, on a reflective floor with strong glare (Jan 2023). |
 
-All clips play in real time and are unedited apart from cropping. Selected from the test videos recorded
-during the project.
+<p align="center">
+  <img src="docs/media/live_dashboard.gif" width="85%" alt="Live operator dashboard while the car drives">
+  <br><em>Live operator dashboard while the car drives (Jan 2023): onboard camera with the predicted target point, the steering chain (network output × gain + bias → steering) and the throttle command.</em>
+</p>
+
+All clips play in real time and are only cropped. They were selected from about 50 test videos
+recorded during the project, and every obstacle pass was checked frame by frame for contact.
 
 ## Summary
 
