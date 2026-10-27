@@ -4,7 +4,7 @@
 Bachelor's thesis, Electrical Engineering, Universitat Politècnica de Catalunya (UPC-EEBE), January 2023.
 
 [![CI](https://github.com/albertsagre/jetracer-autonomous-driving/actions/workflows/ci.yml/badge.svg)](https://github.com/albertsagre/jetracer-autonomous-driving/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.6%20(on--car)%20%7C%203.9%2B%20(tests)-3776AB)
+![Python](https://img.shields.io/badge/Python-3.6%20(on--car)%20%7C%203.10%2B%20(tests)-3776AB)
 ![PyTorch](https://img.shields.io/badge/PyTorch-ResNet--18-EE4C2C)
 ![TensorRT](https://img.shields.io/badge/TensorRT-FP16-76B900)
 ![Platform](https://img.shields.io/badge/NVIDIA-Jetson%20Nano-76B900)
